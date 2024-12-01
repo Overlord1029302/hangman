@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Gallery</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #0400ff, #ee00ff);
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 20px;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.2rem;
+            color: #ffffff;
+        }
+
+        /* Gallery Container */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 0 10px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Individual Project */
+        .project {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 220px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            background: #fff;
+            transform: scale(1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .project img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .project:hover img {
+            transform: scale(1.1);
+        }
+
+        .project h3 {
+            margin: 10px 0;
+            font-size: 1.1rem;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .project a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: color 0.3s;
+            text-align: center;
+            text-align: center;
+        }
+
+        .project a:hover {
+            color: #0056b3;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .gallery {
+                gap: 20px;
+            }
+
+            .project {
+                width: 180px;
+            }
+
+            .project img {
+                height: 120px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             p   
+    <h1>My Project Gallery</h1>
+    <p>Hello! I am Ivin Jacob Mathew. Here are some of the projects I've created using HTML, CSS, and JavaScript. Feel free to check them out!</p>
+    <div class="gallery">
+        <div class="project">
+            <img src="https://cloud-eoz01iub0-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Stop Watch</h3>
+            <a href="https://stopwatch-flax-tau.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-56w682g8u-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Currency Converter</h3>
+            <a href="https://currency-calculator-seven.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-4pciqkouq-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Mass Converter</h3>
+            <a href="https://cloud-4pciqkouq-hack-club-bot.vercel.app/0image.png/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-89gvtpmqn-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Length Converter</h3>
+            <a href="https://length-converter-xi.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-qead7no6k-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>untitled rpg game</h3>
+            <a href="https://untitled-rpg-game.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-rcuiw9eqd-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Time Converter</h3>
+            <a href="https://time-converte.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-khlo02ldd-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Aim Trainer</h3>
+            <a href="https://aim-trainer-nine.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-a7uqrajj0-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Pong</h3>
+            <a href="https://pong-nine-iota.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-50q5ityxw-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Guess the number</h3>
+            <a href="https://guess-the-number-rho-flax.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-k2qusbqz1-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Number Memory Game</h3>
+            <a href="https://memory-game-puce-ten.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-cnp63cdoh-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Reaction Time Test</h3>
+            <a href="https://reaction-time-test-ten.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-r2bsevno2-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>CPS Test</h3>
+            <a href="https://cps-test-nine.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <img src="https://cloud-k9wjlktnm-hack-club-bot.vercel.app/0image.png" alt="Project 1">
+            <h3>Stop Watch</h3>
+            <a href="https://tic-tac-toe-blush-alpha.vercel.app/" target="_blank">View Project</a>
+        </div>
+                
+    </div>
+</body>
+</html>
